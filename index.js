@@ -1,8 +1,8 @@
 require('http').createServer((req, res) => 
                              
-     res.end('
+     res.end(`
              
-             <table border="1">
+             <table border="1" align="center">
                  <thead>
                      <tr>
                          <th>いろんなけ</th>
@@ -30,4 +30,4 @@ require('http').createServer((req, res) =>
                  </tr>
              </table>
              
-             ')).listen(process.env.PORT || 3000);
+             `)).listen(process.env.PORT || 3000);

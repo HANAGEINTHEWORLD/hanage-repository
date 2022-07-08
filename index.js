@@ -1,5 +1,3 @@
 require('http').createServer((req, res) => 
                              
-     res.end('hanagehello')).listen(process.env.PORT || 3000);
-
-aiueo
+     res.end('<b>hanage</b>hello')).listen(process.env.PORT || 3000);

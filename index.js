@@ -1,7 +1,7 @@
 require('http').createServer((req, res) => 
                              
      res.end('
-             <b>hanage</b>hello<br>
+             
              <table border="1">
                  <thead>
                      <tr>

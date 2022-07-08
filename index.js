@@ -1,11 +1,11 @@
 require('http').createServer((req, res) => 
                              
      res.end(`
-             
-             <table border="1" align="center">
+             <meta content="text/html; charset=shift_jis" http-equiv="Content-Type" />
+             <table border="1">
                  <thead>
                      <tr>
-                         <th>いろんなけ</th>
+                         <th colspan="2">いろんなけ</th>
                      </tr>
                  </thead>
                  <tr>

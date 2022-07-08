@@ -1,7 +1,9 @@
 require('http').createServer((req, res) => 
                              
      res.end(`
-             <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+             <head>
+                 <meta charset="utf-8"/>
+             </head>
              <table border="1">
                  <thead>
                      <tr>

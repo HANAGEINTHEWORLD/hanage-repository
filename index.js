@@ -4,7 +4,9 @@ require('http').createServer((req, res) =>
              <b>hanage</b>hello<br>
              <table border="1">
                  <thead>
-                     <th>いろんなけ</th>
+                     <tr>
+                         <th>いろんなけ</th>
+                     </tr>
                  </thead>
                  <tr>
                      <td>hanage</td>

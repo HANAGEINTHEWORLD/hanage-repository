@@ -2,7 +2,7 @@
   "name": "hanage-repository",
   "version": "0.0.0",
   "description": "hanage",
-  "main": "index.js",
+  "main": "Hello.php",
   "engines": {
     "node": "6"
   },
